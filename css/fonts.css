@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'parata';
+    src: url(../fonts/Prata-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'HelvericaNeue';
+    src: url(../fonts/helvetica-neue-regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'HelvericaNeue-Light';
+    src: url(../fonts/helvetica-neue-light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'HelvericaNeue-Bold';
+    src: url(../fonts/helvetica-neue-bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'HelvericaNeue-Black';
+    src: url(../fonts/HelveticaNeue-CondensedBlack.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'HelvericaNeue-Medium';
+    src: url(../fonts/helvetica-neue-medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'HelvericaNeue-Italic';
+    src: url(../fonts/helvetica-neue-italic.ttf) format('truetype');
+}
