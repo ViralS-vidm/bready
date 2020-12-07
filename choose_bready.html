@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+    <link href="https://db.onlinewebfonts.com/c/3a025ae92e6446cec24efcb6d29e5bf3?family=Malgun+Gothic" rel="stylesheet"
+          type="text/css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-kopubworld@1.0">
+    <link href="https://db.onlinewebfonts.com/c/59e78317900df124c3780e2334b0f77a?family=Franklin+Gothic+Heavy"
+          rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="page" class="page">
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav col-md-8 justify-content-between">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="bready.html">소개</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="user.html">학습하기</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="choose_bready.html">커뮤니티</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <button class="btn btn-outline-success" type="button">로그인</button>
+                            <button class="btn btn-outline-success" type="button">회원가입</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="behavior">
+            <div class="list-group choose-bready" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">자주하는 질문</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">질문&답변
+                </a>
+                <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">팁&노하우
+                </a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">공지사항
+                </a>
+            </div>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                    <div class="container">
+                        <div class="table-choose" id="accordionExample">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>No</th>
+                                        <th>제목</th>
+                                        <th>작성자</th>
+                                        <th>등록일</th>
+                                        <th>조회수</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr data-toggle="collapse" data-target=".child1">
+                                        <td>
+                                            <span>공지</span>
+                                        </td>
+                                        <td>
+                                            브래디 2020년 12월 업데이트 공지사항입니다.
+                                        </td>
+                                        <td>
+                                            Bready
+                                        </td>
+                                        <td>
+                                            20.11.28
+                                        </td>
+                                        <td>
+                                            1000
+                                        </td>
+                                    </tr>
+                                    <tr class="collapse  child1">
+                                        <td>
+                                        </td>
+                                        <td>
+                                            <div class="grid-1">
+                                                <p>브래디 10월 업데이트 공지사항입니다.</p>
+                                                <p>자주하는 질문 페이지는 10월 20일에 오픈될 예정입니다.</p>
+                                                <p>브래디에 대해 궁금하신 내용들이 있다면 바로 올려주시기 바랍니다.</p>
+                                            </div>
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                    </tr>
+                                    <tr data-toggle="collapse" data-target=".child2">
+                                        <td>
+                                            <span>공지</span>
+                                        </td>
+                                        <td>
+                                            브래디 2020년 12월 업데이트 공지사항입니다.
+                                        </td>
+                                        <td>
+                                            Bready
+                                        </td>
+                                        <td>
+                                            20.11.28
+                                        </td>
+                                        <td>
+                                            1000
+                                        </td>
+                                    </tr>
+                                    <tr class="collapse child2">
+                                        <td>
+                                        </td>
+                                        <td>
+                                            <div class="grid-1">
+                                                <p>브래디 10월 업데이트 공지사항입니다.</p>
+                                                <p>자주하는 질문 페이지는 10월 20일에 오픈될 예정입니다.</p>
+                                                <p>브래디에 대해 궁금하신 내용들이 있다면 바로 올려주시기 바랍니다.</p>
+                                            </div>
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>브래디 학습방법</td>
+                                        <td>20.12.05</td>
+                                        <td>123</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>브래디 학습방법</td>
+                                        <td>20.12.05</td>
+                                        <td>123</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>브래디 학습방법</td>
+                                        <td>20.12.05</td>
+                                        <td>123</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                    <div class="container">
+                        <div class="row">
+                            <div class="download">
+                                <div class="content">
+                                    <h1>브래디 다운로드</h1>
+                                    <p>브래디 에디터는 인터넷이 연결되어 있지 않은 오프라인에서도 사용할 수 있습니다.</p>
+                                </div>
+                                <div class="choose_download">
+                                    <a class="btn btn-download active" download>
+                                        <img src="./img/img_windown_active.png" alt="">
+                                        <div class="content_download">
+                                            <span>Windows 32bit</span>
+                                            <span>다운로드</span>
+                                        </div>
+                                    </a>
+                                    <a class="btn btn-download" download>
+                                        <img src="./img/img_windown.png" alt="">
+                                        <div class="content_download">
+                                            <span>Windows 64bit </span>
+                                            <span>다운로드</span>
+                                        </div>
+                                    </a>
+                                    <a class="btn btn-download" download>
+                                        <img src="./img/img_mac.png" alt="">
+                                        <span>Mac 다운로드</span>
+                                    </a>
+                                </div>
+                                <ul class="infomation_download">
+                                    <li>
+                                        <span>버전 2.0.29</span>
+                                    </li>
+                                    <li>
+                                        <span>언어 한국어, 영어</span>
+                                    </li>
+                                    <li>
+                                        <span>크기 Windows 32bit 350 MB, Windows 64bit 353 MB, Mac 401 MB</span>
+                                    </li>
+                                    <li>
+                                        <span>업데이트 2020-10-29</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="download_infomation">
+                                <div class="content_download_infomation content">
+                                    <h1>사용범위</h1>
+                                    <p>브래디 오프라인은 기업과 개인 모두 제한없이 무료로 사용하실 수 있습니다.</p>
+                                </div>
+                                <div class="content_download_infomation content">
+                                    <h1>최소 요구사항</h1>
+                                    <p>디스크 여유 공간 1GB 이상, Windows 8 이상 혹은 macOS 10.8 이상의 운영체제, 디스크 여유 공간 1GB 이상.</p>
+                                </div>
+                                <div class="content_download_infomation content">
+                                    <h1>설치 전 참고사항</h1>
+                                    <p>1. 버전 2.0.29 에서는 하드웨어 연결 프로그램이 내장되어 있습니다.</p>
+                                    <p>2. 별도의 웹브라우져가 필요하지 않습니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="flex">
+                    <div class="col-md-3">
+                        <a href="#" class="logo_footer">
+                            <img src="./img/logo_footer.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-9">
+                        <ul class="list_footer">
+                            <li>
+                                <a href="#">개인정보 처리 방침</a>
+                            </li>
+                            <li>
+                                <a href="#">브래디 운영 방침</a>
+                            </li>
+                            <li>
+                                <a href="#">브래디 이용약관</a>
+                            </li>
+                            <li>
+                                <a href="#">책임의 한계와 법적 고지</a>
+                            </li>
+                        </ul>
+                        <p>브래디는 비영리 교육 플랫폼으로 모든 브래디의 창작물은 교육목적에 의해 출처를 밝히고 자유롭게 이용하실 수 있습니다.                        </p>
+
+                        <p>제주특별자치도 제주시 애월읍 평화로 2715, 제주관광대학 창업보육센터 별관 4층 603호    070-7786-0713    jaeoun@tforus.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
